@@ -1,0 +1,253 @@
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    
+    
+}
+
+                                                        /*   NAVBAR PART       */
+
+.nav {
+    margin-bottom: 40px;
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:80px;
+    
+}
+.navbar-brand {
+    font-size: 20px;
+    margin:10px 20px 0px 0px;
+    color: #e74c3c;
+    font-weight:bold;
+}
+.navbar-nav{
+    font-size:16px;
+    margin:15px 10px;
+    color:#000;
+}
+.nav > li > a{
+    color:#000;
+    font-weight:bold;
+}
+.nav > li > a:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    transition:ease-in 0.3s;
+}
+.navbar-toggle {
+    background-color: #e74c3c;
+    margin-top:20px;
+}
+.icon-bar{
+    background-color:#fff;
+}
+
+.bg-Image {
+    width: 100%;
+    height: 752px;
+    position: fixed;
+    z-index: -1;
+    filter: blur(0.2px);
+}
+.formBackground {
+    
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.loginForm {
+    position: absolute;
+    margin: 125px 550px;
+    width: 450px;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0px black;
+    padding: 70px 50px;
+}
+   .loginForm > h2 {
+        color: #e74c3c;
+        font-weight: bold;
+        margin-left:20px;
+    }
+.registerForm {
+    position: absolute;
+    margin: 40px 450px;
+    width: 650px;
+    height:auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0px black;
+    padding: 50px;
+}
+.registerForm > h2 {
+        color: #e74c3c;
+        font-weight: bold;
+        margin-left: 20px;
+}
+.loginLink {
+    display: block;
+    width: 70%;
+    padding-top: 8px;
+    border: 1px solid #d9534f;
+    height: 35px;
+    text-decoration: none;
+    background-color: #d9534f;
+    text-align: center;
+    color: #fff;
+    
+}
+.loginLink:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.imgInfo {
+    border-radius:5%;
+    height: 200px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 40px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.img {
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.profilePic{    
+    height:200px!important;
+}
+.profileInfo {
+    background-color:#fff;
+    padding:50px;
+    margin-top:20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    height:auto;
+}
+.thumbnail {
+    height: auto;
+    padding: 20px;
+}
+.thumbnail img{
+    max-width:100%;
+    height:200px;    
+}
+footer {
+    height: 60px;
+    background-color: #d9534f;
+    color:#fff;
+    padding:20px;
+}
+.searchBar {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+#form-buscar > .form-group > .input-group > .form-control {
+    height: 40px;
+}
+#form-buscar > .form-group > .input-group > .input-group-btn > .btn {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+#form-buscar > .form-group > .input-group > .input-group-btn > .btn .glyphicon {
+        margin-right: 12px;
+}
+#form-buscar > .form-group > .input-group > .form-control {
+    font-size: 16px;
+    font-weight: 300;
+}
+#form-buscar > .form-group > .input-group > .form-control:focus {
+        border-color: #33A444;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+}
+
+.bookImg{
+    height:350px;
+}
+.bookInfo{
+    background-color:#fff;
+    height:auto;
+    padding:30px;
+    text-align:center;
+    line-height:1.8;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+
+    .nav {
+        background-color: #e74c3c;
+        z-index: 9999;
+        position: relative;
+        margin-top:0px;
+        margin-bottom:20px;
+    }
+
+        .nav > li {
+            margin: 10px 0px;
+        }
+
+    .registerForm {
+        width: 80%;
+        margin: 50px 50px !important;
+        padding: 50px;
+    }
+    
+    .signInBtn{
+        margin-bottom: 40px!important;
+    }
+    .registerbtn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .loginbtn {
+        width: 100%;
+    }
+
+    .loginLink {
+        width: 100% !important;
+    }
+
+    .loginForm {
+        width: 80%;
+        margin: 50px 50px !important;
+        padding: 50px;
+    }
+
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+       margin-left:-40px;
+       margin-right:-40px;
+
+    }
+    .navbar-toggle {
+        margin-right:40px;
+    }
+    .navbar-brand{
+        margin-left:40px;
+    }
+    .navbar-form {
+    margin-left:0px!important;
+    margin-right:0px!important;     
+    border-top:hidden;
+    box-shadow:none;
+    }
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .img-responsive {
+        max-width:100%;
+    }
+}
